@@ -1,6 +1,6 @@
-<template name="HomeLayout">
+<template name="MainLayout">
 	<nav class="navbar navbar-default" role="navigation">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#HomeNavbar">
 					<span class="sr-only">Toggle navigation</span>
@@ -14,15 +14,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="HomeNavbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
+					<li class="active"><a href="/notes/overview">Overview</a></li>
 
 				</ul>
-				<form class="navbar-form navbar-left" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">{{> loginButtons}}</a></li>
 

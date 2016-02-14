@@ -18,7 +18,6 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 
 meteortoys:allthings
-accounts-ui
 accounts-password
 accounts-github
 accounts-google
@@ -38,3 +37,5 @@ erasaur:meteor-lodash
 twbs:bootstrap
 
 gwendall:auth-client-callbacks
+
+ian:accounts-ui-bootstrap-3
