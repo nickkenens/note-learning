@@ -1,0 +1,8 @@
+<template name="NotesAll">
+	<h2>All Notes</h2>
+	<ul class="list-group">
+		{{#each notes}}
+		<li class="list-group-item"><a href="/note/{{_id}}">{{title}}</a></li>
+		{{/each}}
+	</ul>
+</template>
