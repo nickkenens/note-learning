@@ -46,6 +46,7 @@ fortawesome:fontawesome@4.5.0
 geojson-utils@1.0.4
 github@1.1.4
 google@1.1.7
+gwendall:auth-client-callbacks@0.1.0
 gwendall:body-events@0.1.6
 hot-code-push@1.0.0
 html-tools@1.0.5
@@ -115,6 +116,7 @@ standard-minifiers@1.0.2
 templating@1.1.5
 templating-tools@1.0.0
 tracker@1.0.9
+twbs:bootstrap@3.3.6
 twitter@1.1.5
 ui@1.0.8
 underscore@1.0.4

@@ -34,3 +34,7 @@ kadira:blaze-layout
 
 fortawesome:fontawesome
 erasaur:meteor-lodash
+
+twbs:bootstrap
+
+gwendall:auth-client-callbacks
